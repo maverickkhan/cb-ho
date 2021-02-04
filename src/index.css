@@ -1,0 +1,22 @@
+:root{--unnamed-color-0072bc: #0072BC;
+
+    /* Font/text values */
+    --unnamed-font-family-gotham: Gotham;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-normal: normal;
+    --unnamed-font-size-21: 21px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-line-spacing-22: 22px;
+    --unnamed-text-transform-titlecase: titlecase;
+    }
+    
+    /* Character Styles */
+    .unnamed-character-style-1 {
+    font-family: var(--unnamed-font-family-gotham);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-21);
+    line-height: var(--unnamed-line-spacing-22);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2aa0b3);
+    text-transform: var(--unnamed-text-transform-titlecase)}

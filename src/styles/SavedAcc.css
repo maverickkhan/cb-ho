@@ -1,0 +1,381 @@
+
+.my-Container{
+    padding: 0 !important;
+    /* padding-bottom: 10% !important; */
+    }
+    .savedAcc-main{
+      background-image: url('../assets/images/SignIn-new.png') ;
+      /* background-size: 100%; */
+      background-repeat: no-repeat;
+      height: 100vh;
+    
+     
+      padding-bottom: 10% !important;
+      margin: 0 !important;
+       
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    
+    }
+    
+    .leftContainer{
+      margin:auto 0 auto 0;
+    }
+    .leftContainer h3{
+      color: #ffffff;
+      letter-spacing: 0px;
+      font-weight: 300;
+      font-size: 43px;
+      line-height: 50px;
+      font-family: gotham-light;
+    
+    }
+    .leftContainer h1 {
+      color: #00FFFF;
+      text-transform: capitalize;
+      font-size: 124px;
+      font-family: gotham-bold;
+      line-height: 142px;
+    }
+    
+    
+    
+    
+    .border-box{
+      border-radius: 25px;
+    
+    box-shadow: 0px 8px 75px;}
+    
+    
+    .form-logo{
+    
+      margin-bottom: 5%;
+    }
+    
+    
+    .LoginForm h3 {
+      text-align: left;
+      line-height: 30px;
+      font-weight: 700;
+      font: normal normal normal 30px/48px Gotham;      /* margin: 67px 0px 10px; */
+      color: #2E384D;
+      font-family: 'gotham-book';
+      /* font-size: 30px; */
+    }
+    .formLabel {
+      color: #8C98A9;
+      line-height: 22px;
+      font-family: 'gotham-book';
+    }
+    
+    .LoginForm> h3 {
+      /* color: #1c7cbf; */
+      color: #2E384D;
+      padding: 0px 5px;
+      opacity: 0.8;
+
+    }
+    .LoginForm .user-logo{
+      color: #1c7cbf; ;
+    }
+    
+    .LoginForm h3 svg {
+      position: relative;
+      bottom: 3px;
+    }
+    .LoginForm p {
+      text-align: left;
+      padding: 0px 9px;
+      color: #58595B;
+      font-size: 21px;
+      font-family: 'gotham-book';
+      line-height: 34px;
+      width: 81%;
+      margin: 20px 0 47px;
+    }
+    
+    .rightContainer{
+      background-color: white;
+      margin-top: 5%;
+      padding: 3%;
+      margin-left:7%
+
+    }
+    .saved-left{
+      max-width: 40% !important;
+    }
+    .saved-right{
+      max-width:60% !important
+    }
+    .savedAcc-cross{
+      align-items: flex-end;
+      margin-left: 94%;
+      /* z-index: -1; */
+      position: relative;
+      top: -90px !important;
+    }
+    
+    .btn-height{
+      height: 60px;
+    }
+
+
+   
+   
+    .saved-left{
+      max-width: 40% !important;
+    }
+    .saved-right{
+      max-width:60% !important
+    }
+    
+   
+    @media only screen and (max-width: 1300px) {
+      .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 300;
+      font-size: 36px;
+      line-height: 40px;
+      font-family: gotham-light;  
+
+    }
+    /* .savedAcc-input{
+      width:50% !important
+    } */
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 84px;
+        font-family: gotham-bold;
+        line-height: 96px;
+      }
+      .savedAcc-input{
+        /* width:70% !important; */
+        font-size:15px !important
+      }
+    .savedAcc-mail{
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+    }
+    .LoginForm h3 {
+      text-align: left;
+      line-height: 27px;
+      font-weight: 700;
+      font: normal normal normal 32px/40px Gotham;      /* margin: 67px 0px 10px; */
+      color: #2E384D;
+      font-family: 'gotham-book';
+            opacity: 0.8;
+
+      /* font-size: 30px; */
+    }
+     
+    }
+    
+    
+    
+    
+    @media only screen and (max-width: 960px) {
+      .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 300;
+      font-size: 32px;
+      line-height: 40px;
+      font-family: gotham-light;  
+
+    }
+    .savedAcc-input{
+      /* width:70% !important; */
+      font-size:15px !important
+    }
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 74px;
+        font-family: gotham-bold;
+        line-height: 82px;
+      }
+    
+      .savedAcc-input{
+        font-size: 22px;
+      }
+      
+      .LoginForm h3 {
+        text-align: left;
+        line-height: 24px;
+        font-weight: 600;
+        font: normal normal normal 23px/32px Gotham;      /* margin: 67px 0px 10px; */
+        color: #2E384D;
+        font-family: 'gotham-book';
+        opacity: 0.8;
+
+        /* font-size: 30px; */
+      }
+    }
+    
+    
+    
+    @media screen and (max-width: 812px) {
+      .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 200;
+      font-size: 30px;
+      line-height: 35px;
+      font-family: gotham-light;  
+      opacity: 0.8;
+
+    }
+    
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 64px;
+        font-family: gotham-bold;
+        line-height: 92px;
+      }
+    
+      .savedAcc-input{
+        /* width:75% !important; */
+        font-size:13px !important
+      }
+      .LoginForm h3 {
+        text-align: left;
+        line-height: 24px;
+        font-weight: 600;
+        font: normal normal normal 23px/38px Gotham;      /* margin: 67px 0px 10px; */
+        color: #2E384D;
+        font-family: 'gotham-book';
+        /* font-size: 30px; */
+
+      }
+    }
+    
+    
+    @media screen and (max-width: 700px) {
+      .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 100;
+      font-size: 24px;
+      line-height: 40px;
+      font-family: gotham-light;  
+      opacity: 0.8;
+
+    }
+    
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 52px;
+        font-family: gotham-bold;
+        line-height: 82px;
+      }
+    
+      .rightContainer{
+        margin: 30px auto 0 auto !important;
+      }
+      .savedAcc-input{
+        /* width:80% !important; */
+        font-size:12px !important
+      }
+     .saved-container{
+       display:flex;
+       flex-direction: column;
+       align-items: center;
+     }
+     .saved-tooltip>p{
+      color: #3CA693;
+      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/var(--unnamed-line-spacing-22) var(--unnamed-font-family-gotham);
+     }
+/* .savedAcc-pass .formLabel{
+
+} */
+      
+    }
+    
+    
+    @media screen and (max-width: 599px) {
+      .savedAcc-main{
+        background-image: url('../assets/images/bigbg.png') !important;
+        /* background-size: 100% ; */
+        height: 100%;
+        padding-bottom: 10% !important;
+        margin: 0 !important;
+         
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+      .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 100;
+      font-size: 23px;
+      line-height: 30px;
+      font-family: gotham-light;  
+      margin-top: 5%;
+    }
+    
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 48px;
+        font-family: gotham-bold;
+        line-height: 78px;
+      }
+    .rightContainer{
+      margin: 0 auto 0 auto;
+      /* border-radius: 0 !important; */
+    }
+    
+    .savedAcc-input{
+      /* width:80% !important; */
+      /* margin-left: auto !important; */
+      font-family: 'gotham-light'  !important;
+      font-size:13px !important
+    }
+    .saved-right{
+      max-width:90% !important
+    }
+    .LoginForm h3 {
+      text-align: left;
+      line-height: 24px;
+      font-weight: 600;
+      font: normal normal normal 21px/25px Gotham;      /* margin: 67px 0px 10px; */
+      color: #2E384D;
+      font-family: 'gotham-book';
+      /* font-size: 30px; */
+      opacity: 0.8 !important;
+
+    }
+    }
+    
+    
+    
+    
+    
+    .google-btn{
+      background-color: #DC4E41 !important;
+    }
+    .containerBox{
+      width: 80% !important;
+    }
+    .form-btn{
+      border: none !important;
+    }
+    .savedAcc-input .Form.Control{
+      color:#f5cdcd;
+    /* font-family: 'gotham-light' !important; */
+    }
+    .gotham{
+      font-family: 'gotham-light';
+    }

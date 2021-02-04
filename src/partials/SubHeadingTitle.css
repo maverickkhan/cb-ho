@@ -1,0 +1,14 @@
+.form-title-div {
+    color: #8C98A9;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.non-class{
+    display: none;
+}
+.form-title-paragraph{
+    display: block;
+}

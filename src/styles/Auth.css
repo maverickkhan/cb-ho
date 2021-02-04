@@ -1,0 +1,676 @@
+:root{--unnamed-color-0072bc: #0072BC;
+
+  /* Font/text values */
+  --unnamed-font-family-gotham: Gotham;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-size-21: 21px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-22: 22px;
+  --unnamed-text-transform-titlecase: titlecase;
+  }
+  
+  /* Character Styles */
+  .unnamed-character-style-1 {
+  font-family: var(--unnamed-font-family-gotham);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-21);
+  line-height: var(--unnamed-line-spacing-22);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-2aa0b3);
+  text-transform: var(--unnamed-text-transform-titlecase)}
+@font-face{
+  font-family: gotham-light;
+  src: url('../assets/font-family/gotham-light-regular.otf');
+}
+@font-face{
+  font-family: gotham-bold;
+  src: url('../assets/font-family/gotham-bold.otf');
+}
+@font-face{
+  font-family: gotham-book;
+  src: url('../assets/font-family/gothambook.ttf');
+}
+
+.my-Container{
+padding: 0 !important;
+/* padding-bottom: 10% !important; */
+}
+.main-sign{
+  background-image: url('../assets/images/SignIn.png') ;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+
+  /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg"); */
+
+  /* Full height */
+  height: 100vh;
+  padding-bottom: 10% !important;
+  margin: 0 !important;
+   /* height: 80%; */
+width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* max-height:100%;
+   width:auto;
+   display: block; */
+  overflow-y: none;
+
+
+}
+/* @media only screen and (max-width: 1500px) */
+
+.main-newSign{
+  background-image: url('../assets/images/SignIn-new.png');
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+
+  /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg"); */
+
+  /* Full height */
+  /* height: 100vh; */
+  padding-bottom: 10% !important;
+  margin: 0 !important;
+   height: 100%;
+width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* max-height:100%;
+   width:auto;
+   display: block; */
+  
+
+
+}
+/* .addCard-main{
+  ;
+} */
+
+.addCard-cancel{
+  position:absolute;
+  right: 10%;
+    top: 20%;
+  color: gray;
+  font-size: 26px;
+}
+
+.addCard-tooltip{
+  position: absolute;
+  left: 50%;
+  /* background-color: lightgray; */
+  top: -100px;
+  color: #58595B;
+  background:#F3F3F3 0% 0% no-repeat padding-box;
+    font: normal normal normal 16px/16px Gotham ;
+    font-family: 'gotham-book' ;
+    font-size: 13px ;
+    width: 300px;
+    border-radius: 15px;
+
+}
+
+.addCard-heading{
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 40px/58px var(--unnamed-font-family-gotham);
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left !important;
+font: normal normal normal 40px/58px  !important;
+font-family: 'gotham-book';
+letter-spacing: 0px;
+color: #2E384D !important;
+opacity: 0.8 !important;
+}
+.addCard-heading1{
+  /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 40px/58px var(--unnamed-font-family-gotham); */
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left !important;
+font: normal normal  12px/12px  !important;
+font-family: 'gotham-book';
+/* font-weight: lighter !important; */
+letter-spacing: 0px;
+font-weight: bold;
+color: #2E384D !important;
+opacity: 1 !important;
+}
+
+.addCard-h{
+  /* font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-21)/24px var(--unnamed-font-family-gotham); */
+  font: normal normal bold 12px/18px ;
+  text-transform: capitalize ;
+}
+.addcard-text{
+  
+    font-family: 'gotham-book';
+    /* text-align: center; */
+    color: #58595B;
+    /* font-size:5vw */
+
+}
+.align-left{
+  text-align: left !important;
+}
+.addCard-color{
+  color: #D8D8D8;
+}
+.addCard-p>input::placeholder{
+  font: normal normal normal 20px/18px Gotham;  color: #D8D8D8;
+}
+.addCard-p{
+  color: #D8D8D8;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-21)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-gotham);
+
+}
+
+.margin-container{
+  margin-left: 7%;
+  margin-right: 7%;
+  border-radius: 5px;
+}
+
+@media only screen and (max-height:780px){
+  .main-sign, .main-newSign{
+    min-height:100vh ;
+    height: fit-content;
+  }
+}
+@media only screen and (max-width:650px){
+  .main-sign, .main-newSign{
+background-image: url('../assets/images/bigbg.png');  }
+}
+.main-big{
+  background-image: url('../assets/images/bigbg.png');
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+
+  /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg"); */
+
+  /* Full height */
+  /* height: 100vh; */
+  padding-bottom: 10% !important;
+  margin: 0 !important;
+   min-height: 100vh;
+width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.leftContainer{
+  margin:auto 0 auto 0;
+}
+.leftContainer h3{
+  color: #ffffff;
+  letter-spacing: 0px;
+  font-weight: 300;
+  font-size: 43px;
+  line-height: 50px;
+  font-family: gotham-light;
+
+}
+.leftContainer h1 {
+  color: #00FFFF;
+  text-transform: capitalize;
+  font-size: 124px;
+  font-family: gotham-bold;
+  line-height: 142px;
+}
+
+
+
+
+.border-box{
+  border-radius: 25px;
+}
+
+
+.logo{
+
+  margin-bottom: 5%;
+}
+
+
+.auth-LoginForm h3 {
+  text-align: left;
+  line-height: 58px;
+  font-weight: 400;
+  /* margin: 67px 0px 10px; */
+  color: #2E384D;
+  font-family: 'gotham-book';
+  font-size: 40px;
+  opacity: 0.9;
+}
+.formLabel {
+  color: #8C98A9;
+  line-height: 22px;
+  font-family: 'gotham-book';
+}
+
+.auth-LoginForm> h3 {
+  /* color: #1c7cbf; */
+  color: #2E384D;
+  padding: 0px 5px;
+}
+.auth-LoginForm .user-logo{
+  color: #1c7cbf; ;
+}
+
+.auth-LoginForm h3 svg {
+  position: relative;
+  bottom: 3px;
+}
+.auth-LoginForm p {
+  text-align: left;
+  padding: 0px 9px;
+  color: #58595B;
+  font-size: 21px;
+  font-family: 'gotham-book';
+  line-height: 34px;
+  width: 81%;
+  margin: 20px 0 47px;
+}
+
+.auth-btn{
+  width: 75% !important;
+}
+.auth-btn1{
+  background-color: #0072BC !important;
+}
+
+.container-fluid ,.my-Container{
+  height: inherit !important
+  
+}
+.addCard-btn{
+
+  background-color: #0072BC;
+  width: 45%;
+  margin-left: 5%;
+  border: #0072BC;
+  border-radius: 5px;
+color: white;
+/* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-21)/56px var(--unnamed-font-family-gotham); */
+font: normal normal normal 14px/26px Gotham;
+
+}
+.addCard-btn:active,.addCard-btn:focus{
+  border-color: #0072BC;
+  outline: none;
+}
+.paypal-tooltip{
+  background: #F3F3F3 0% 0% no-repeat padding-box;
+opacity: 1;
+width: 250px;
+margin-left: 20px;
+height:60px;
+position: absolute;
+    top: -10px;
+    left: 20px;
+/* background-color: violet; */
+
+
+}
+.paypal-tooltip>p{
+  text-align: left;
+  
+font: normal normal normal 16px/22px Gotham;
+letter-spacing: 0px;
+color: #58595B;
+opacity: 1;
+}
+.saved-tooltip{
+  background: #F3F3F3 0% 0% no-repeat padding-box;
+opacity: 1;
+width: 250px;
+margin-left: 20px;
+height:60px;
+position: absolute;
+    top: 10px;
+    left: -5px;
+background-color: white;
+/* border:1px solid lightgray; */
+}
+.saved-tooltip>p{
+  font: normal normal normal 18px/22px Gotham;;
+  text-align: center;
+  color: #3CA693;
+  /* padding: 5px; */
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.addCard-tooltip-h{
+  color: black;
+  font-weight: 600;
+font-size: 13px;  
+}
+
+
+@media only screen and (max-width: 1500px) {
+  .leftContainer h3{
+    color: #ffffff;
+    letter-spacing: 0px;
+    font-weight: 200;
+  font-size: 38px;
+  line-height: 40px;
+  font-family: gotham-light;  
+}
+
+  .leftContainer h1 {
+    color: #00FFFF;
+    text-transform: capitalize;
+    font-size: 88px;
+    font-family: gotham-bold;
+    line-height: 96px;
+  }
+
+
+}
+@media only screen and (max-width: 1300px) {
+  .leftContainer h3{
+    color: #ffffff;
+    letter-spacing: 0px;
+    font-weight: 300;
+  font-size: 36px;
+  line-height: 40px;
+  font-family: gotham-light;  
+}
+
+  .leftContainer h1 {
+    color: #00FFFF;
+    text-transform: capitalize;
+    font-size: 84px;
+    font-family: gotham-bold;
+    line-height: 96px;
+  }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 960px) {
+  .leftContainer h3{
+    color: #ffffff;
+    letter-spacing: 0px;
+    font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: gotham-light;  
+}
+
+  .leftContainer h1 {
+    color: #00FFFF;
+    text-transform: capitalize;
+    font-size: 74px;
+    font-family: gotham-bold;
+    line-height: 82px;
+  }
+  .auth-input{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .saved-tooltip{
+    background: #F3F3F3 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 250px;
+  margin-left: 20px;
+  height:60px;
+  position: absolute;
+      top: -70px;
+      left: -65px;
+  background-color: white;
+  /* border:1px solid lightgray; */
+  }
+  .saved-tooltip>p{
+    font: normal normal normal 18px/22px Gotham;;
+    text-align: center;
+    color: #3CA693;
+    /* padding: 5px; */
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .saved-margin-tooltip{
+    margin-bottom: 40px;
+  }
+  .addCard-heading{
+    margin-bottom: 100px;
+    /* top:-90px */
+  }
+  .addCard-tooltip-h{
+    color: black;
+    font-weight: 600;
+  font-size: 12px;  
+  }
+}
+
+
+
+@media screen and (max-width: 812px) {
+  .leftContainer h3{
+    color: #ffffff;
+    letter-spacing: 0px;
+    font-weight: 200;
+  font-size: 30px;
+  line-height: 35px;
+  font-family: gotham-light;  
+}
+
+  .leftContainer h1 {
+    color: #00FFFF;
+    text-transform: capitalize;
+    font-size: 64px;
+    font-family: gotham-bold;
+    line-height: 92px;
+  }
+
+  .auth-btn{
+    width: 80% !important;
+  }
+
+
+  .auth-LoginForm{
+    text-align: left;
+      line-height: 30px;
+      font-weight: 600;
+      /* margin: 67px 0px 10px; */
+      color: #2E384D;
+      font-family: 'gotham-book';
+      font-size: 30px;
+  }
+  .addCard-heading{
+    margin-bottom: 110px;
+    /* top:-90px */
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .leftContainer h3{
+    color: #ffffff;
+    letter-spacing: 0px;
+    font-weight: 100;
+  font-size: 24px;
+  line-height: 40px;
+  font-family: gotham-light;  
+}
+
+  .leftContainer h1 {
+    color: #00FFFF;
+    text-transform: capitalize;
+    font-size: 52px;
+    font-family: gotham-bold;
+    line-height: 82px;
+  }
+
+  .auth-btn{
+    width: 85% !important;
+  }
+  .margin-container{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .addCard-heading{
+    margin-bottom: 110px;
+    /* top:-90px */
+  }
+  .addCard-tooltip{
+    width: 250px;
+    /* font: normal normal normal 11px/11px Gotham ; */
+    top:-95px;
+  }
+  .addCard-tooltip>p{
+    font-size: 11px;
+    /* font: normal normal normal 11px/13px Gotham ; */
+
+  }
+
+  .addCard-btn{
+    background-color: #0072BC;
+    width: 90%;
+    margin-left: 5%;
+    border: #0072BC;
+    border-radius: 5px;
+  color: white;
+  font: normal normal normal 12px/10px Gotham;
+}
+.addCard-effect{
+  margin-bottom: 90px;
+}
+.paypal-tooltip{
+  position: absolute;
+  top: -80px;
+  left: -40px;
+}
+
+.saved-tooltip{
+  background: #F3F3F3 0% 0% no-repeat padding-box;
+opacity: 1;
+width: 200px;
+margin-left: 20px;
+height:60px;
+position: absolute;
+    top: -70px;
+    left: -105px;
+background-color: white;
+/* border:1px solid lightgray; */
+}
+.saved-tooltip>p{
+  font: normal normal normal 18px/22px Gotham;;
+  text-align: center;
+  color: #3CA693;
+  /* padding: 5px; */
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+}
+
+
+@media screen and (max-width: 599px) {
+  .main{
+    background-image: url('../assets/images/bigbg.png') !important;
+    background-size: 100%;
+    
+    padding-bottom: 10% !important;
+    margin: 0 !important;
+     
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .leftContainer h3{
+    color: #ffffff;
+    letter-spacing: 0px;
+    font-weight: 100;
+  font-size: 23px;
+  line-height: 30px;
+  font-family: gotham-light;  
+  margin-top: 5%;
+}
+
+  .leftContainer h1 {
+    color: #00FFFF;
+    text-transform: capitalize;
+    font-size: 48px;
+    font-family: gotham-bold;
+    line-height: 78px;
+  }
+.rightContainer{
+  margin: 0 auto 0 auto;
+  /* border-radius: 0 !important; */
+}
+
+.auth-btn{
+  width: 95% !important;
+}
+.container-fluid ,.my-Container{
+  height: 100% !important
+  ;
+}
+.paypal-tooltip{
+  position: absolute;
+  top: -100px;
+  left: -150px;
+}
+.addCard-heading{
+  margin-bottom: 140px;
+  /* top:-90px */
+}
+.addCard-tooltip{
+  width: 200px;
+  /* font: normal normal normal 11px/11px Gotham ; */
+  top:-105px;
+  left: 250px;
+}
+.addCard-tooltip-h{
+  font-weight: 600;
+font-size: 11px;
+color: black;  
+
+}
+}
+
+
+@media screen and (max-width: 490px){
+  .addCard-tooltip{
+    width: 200px;
+    /* font: normal normal normal 11px/11px Gotham ; */
+    top:-135px;
+    left: 30%;
+  }
+}
+
+
+.rightContainer{
+  background-color: white;
+  margin-top: 10%;
+  padding: 3%;
+}
+.google-btn{
+  background-color: #DC4E41 !important;
+}
+.containerBox{
+  width: 80% !important;
+  /* height: 50vh; */
+}
+.form-btn{
+  border: none !important;
+}
+

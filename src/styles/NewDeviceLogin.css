@@ -1,0 +1,317 @@
+
+.my-Container{
+    padding: 0 !important;
+    /* padding-bottom: 10% !important; */
+    }
+    .newLogin-main{
+      background-image: url('../assets/images/bigbg.png');
+      /* background-size: 100%; */
+      background-repeat: no-repeat;
+      height: 100vh;
+
+    
+      /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg"); */
+    
+      /* Full height */
+      /* height: 100%; */
+      padding-bottom: 10% !important;
+      margin: 0 !important;
+       
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    
+    }
+    
+    .leftContainer{
+      margin:auto 0 auto 0;
+    }
+    .leftContainer h3{
+      color: #ffffff;
+      letter-spacing: 0px;
+      font-weight: 300;
+      font-size: 43px;
+      line-height: 50px;
+      font-family: gotham-light;
+    
+    }
+    .leftContainer h1 {
+      color: #00FFFF;
+      text-transform: capitalize;
+      font-size: 124px;
+      font-family: gotham-bold;
+      line-height: 142px;
+    }
+    
+    
+    .single-container{
+        margin: 0 auto 0 auto ;
+      background-color: white;
+      width: 40% !important;
+      margin:0 auto 0 auto;
+      padding: 3%;
+    }
+    
+    .thankyou-content>p{
+        font-family: 'gotham-book';
+        text-align: center;
+        color: #58595B;
+    }
+
+    .border-box{
+      border-radius: 25px;
+      box-shadow: none;
+    }
+    
+    
+    .logo{
+    
+      margin-bottom: 5%;
+    }
+    
+    
+    .thankyou-LoginForm h3 {
+      text-align: left;
+      line-height: 40px;
+      font-weight: 400;
+      /* margin: 67px 0px 10px; */
+      color: #2E384D;
+      font-family: 'gotham-book';
+      font-size: 30px;
+      opacity: 0.8;
+      /* font: normal normal normal 40px/58px Gotham; */
+    }
+    .formLabel {
+      color: #8C98A9;
+      line-height: 22px;
+      font-family: 'gotham-book';
+    }
+    
+    .thankyou-LoginForm> h3 {
+      /* color: #1c7cbf; */
+      color: #2E384D;
+      
+      text-align: center;
+      padding: 0px 5px;
+    }
+    .thankyou-LoginForm .user-logo{
+      color: #1c7cbf; ;
+    }
+    
+    .thankyou-LoginForm h3 svg {
+      position: relative;
+      bottom: 3px;
+    }
+    .thankyou-LoginForm p {
+      text-align: center;
+      padding: 0px 9px;
+      color: #58595B;
+      font-size: 21px;
+      font-family: 'gotham-book';
+      line-height: 34px;
+      width: 81%;
+      margin: 20px 0 47px;
+    }
+
+    .thankyou-btn{
+        background-color: #EBE9E9 !important;
+        color: #58595B !important;
+    }
+
+   
+    .progressBar{
+      height: 20% !important;
+    }
+    .containerBox{
+        /* width: 80% ; */
+        padding: 0 !important;
+      }
+      
+    @media only screen and (max-width: 1500px) {
+      .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 200;
+      font-size: 38px;
+      line-height: 40px;
+      font-family: gotham-light;  
+    }
+    
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 88px;
+        font-family: gotham-bold;
+        line-height: 96px;
+      }
+    
+    
+    }
+    @media only screen and (max-width: 1300px) {
+      .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 300;
+      font-size: 36px;
+      line-height: 40px;
+      font-family: gotham-light;  
+    }
+    
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 84px;
+        font-family: gotham-bold;
+        line-height: 96px;
+      }
+    
+    
+    }
+    
+    
+    
+    
+    @media only screen and (max-width: 960px) {
+      .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 300;
+      font-size: 32px;
+      line-height: 40px;
+      font-family: gotham-light;  
+    }
+    
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 74px;
+        font-family: gotham-bold;
+        line-height: 82px;
+      }
+    
+    .single-container{
+        width: 80% !important;
+    }
+
+    }
+    
+    
+    
+    @media screen and (max-width: 812px) {
+      .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 200;
+      font-size: 30px;
+      line-height: 35px;
+      font-family: gotham-light;  
+    }
+    
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 64px;
+        font-family: gotham-bold;
+        line-height: 92px;
+      }
+      .single-container{
+        width: 80% !important;
+    }
+    
+    }
+    
+    
+    @media screen and (max-width: 700px) {
+      .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 100;
+      font-size: 24px;
+      line-height: 40px;
+      font-family: gotham-light;  
+    }
+    
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 52px;
+        font-family: gotham-bold;
+        line-height: 82px;
+      }
+    
+      .single-container{
+        width: 85% !important;
+    }
+    
+    }
+    
+    
+    @media screen and (max-width: 599px) {
+      .newLogin-main{
+        background-image: url('../assets/images/bigbg.png') !important;
+        /* background-size: 100%; */
+        height: 100%;
+        padding-bottom: 10% !important;
+        margin: 0 !important;
+         
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+      .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 100;
+      font-size: 23px;
+      line-height: 30px;
+      font-family: gotham-light;  
+      margin-top: 5%;
+    }
+    
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 48px;
+        font-family: gotham-bold;
+        line-height: 78px;
+      }
+
+      .single-container{
+        width: 95% !important;
+    }
+
+    .thankyou-content>p{
+        font-family: 'gotham-book';
+        /* text-align: center; */
+        text-align: justify;
+        color: #58595B;
+    }
+    .thankyou-btn{
+      font-size: 13px !important;
+    }
+    }
+    
+    
+    
+    
+    
+
+    .google-btn{
+      background-color: #DC4E41 !important;
+    }
+   
+    .form-btn{
+      border: none !important;
+    }
+    .thankyou-logo{
+        text-align: center;
+    }
+   
+    .thankyou-form .thankyou-input{
+        height: 60px !important;
+    }

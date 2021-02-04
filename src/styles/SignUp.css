@@ -1,0 +1,350 @@
+
+.my-Container{
+    padding: 0 !important;
+    /* padding-bottom: 10% !important; */
+    }
+    .main{
+      background-image: url('../assets/images/SignIn-new.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      /* height: 100vh; */
+    
+      /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg"); */
+    
+      /* Full height */
+      /* height: 100%; */
+      padding-bottom: 10% !important;
+      margin: 0 !important;
+       
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    
+    }
+    
+    .leftContainer{
+      margin:auto 0 auto 0;
+    }
+    .leftContainer h3{
+      color: #ffffff;
+      letter-spacing: 0px;
+      font-weight: 300;
+      font-size: 43px;
+      line-height: 50px;
+      font-family: gotham-light;
+    
+    }
+    .leftContainer h1 {
+      color: #00FFFF;
+      
+      text-transform: capitalize;
+      font-size: 124px;
+      font-family: gotham-bold;
+      line-height: 142px;
+    }
+    
+    
+    
+    
+    .border-box{
+      border-radius: 25px;
+    }
+    
+    
+    .logo{
+    
+      margin-bottom: 5%;
+    }
+    
+    
+    .LoginForm h3 {
+      text-align: left;
+      line-height: 58px;
+      font-weight: 200;
+      /* margin: 67px 0px 10px; */
+      color: #2E384D;
+      font-family: 'gotham-book';
+      font-size: 30px;
+    }
+    .formLabel {
+      color: #8C98A9;
+      line-height: 22px;
+      font-family: 'gotham-book';
+    }
+    
+    .LoginForm> h3 {
+      /* color: #1c7cbf; */
+      color: #2E384D;
+      padding: 0px 5px;
+    }
+    .LoginForm .user-logo{
+      color: #1c7cbf; ;
+    }
+    
+    .LoginForm h3 svg {
+      position: relative;
+      bottom: 3px;
+    }
+    .LoginForm p {
+      text-align: left;
+      padding: 0px 9px;
+      color: #58595B;
+      font-size: 21px;
+      font-family: 'gotham-book';
+      line-height: 34px;
+      width: 81%;
+      margin: 20px 0 47px;
+    }
+    
+    .signup-btn{
+      width: 50%;
+      margin-left: 25%;
+      margin-top: 5%;
+    }
+    .signup-btn > Button{
+      margin-top: 3% !important;
+    }
+
+    .rightContainer{
+      margin: 0 auto 0 auto;
+      /* border-radius: 0 !important; */
+    }
+    .gotham-content{
+      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-21)/34px var(--unnamed-font-family-gotham);
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+/* font: normal normal normal 21px/34px Gotham; */
+letter-spacing: 0px;
+color: #58595B;
+opacity: 1;
+    }
+
+    @media only screen and (max-width: 1500px) {
+      .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 200;
+      font-size: 38px;
+      line-height: 40px;
+      font-family: gotham-light;  
+    }
+    
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 88px;
+        font-family: gotham-bold;
+        line-height: 96px;
+      }
+    
+    
+    }
+    @media only screen and (max-width: 1300px) {
+      .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 300;
+      font-size: 36px;
+      line-height: 40px;
+      font-family: gotham-light;  
+    }
+    
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 84px;
+        font-family: gotham-bold;
+        line-height: 96px;
+      }
+      .signup-btn{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 5%;
+      }
+      
+    
+    }
+    
+    
+    
+    
+    @media only screen and (max-width: 960px) {
+      .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 300;
+      font-size: 32px;
+      line-height: 40px;
+      font-family: gotham-light;  
+    }
+    
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 74px;
+        font-family: gotham-bold;
+        line-height: 82px;
+      }
+    .savedAcc-mail .thankyou-input{
+      font-family: 'gotham-light';
+    font-size: 14px;
+    }
+    .signup-btn{
+      width: 70%;
+      margin-left: 15%;
+      margin-top: 5%;
+    }
+    
+    }
+    
+    
+    
+    @media screen and (max-width: 812px) {
+      .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 200;
+      font-size: 30px;
+      line-height: 35px;
+      font-family: gotham-light;  
+    }
+    
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 64px;
+        font-family: gotham-bold;
+        line-height: 92px;
+      }
+      .signup-btn{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+      }
+      
+    
+    
+    }
+    
+    
+    @media screen and (max-width: 700px) {
+      .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 100;
+      font-size: 24px;
+      line-height: 40px;
+      font-family: gotham-light;  
+    }
+    
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 50px;
+        font-family: gotham-bold;
+        line-height: 82px;
+      }
+      .signup-btn{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+      }
+      
+    
+    }
+    
+    
+    @media screen and (max-width: 599px) {
+    .main{
+        background-image: url('../assets/images/bigbg.png') !important;
+        background-size: 100%;
+        
+        padding-bottom: 10% !important;
+        margin: 0 !important;
+         
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        .leftContainer h3{
+        color: #ffffff;
+        letter-spacing: 0px;
+        font-weight: 100;
+      font-size: 23px;
+      line-height: 30px;
+      font-family: gotham-light;  
+      margin-top: 5%;
+    }
+    
+      .leftContainer h1 {
+        color: #00FFFF;
+        text-transform: capitalize;
+        font-size: 48px;
+        font-family: gotham-bold;
+        line-height: 78px;
+      }
+    
+    
+    .savedAcc-mail .thankyou-input{
+      font-family: 'gotham-light';
+    font-size: 12px;
+    }
+    .terms{
+      font-size:14px;
+    }
+    .rightContainer{
+      width: 90% !important;
+      margin: 0 auto 0 auto;
+      /* border-radius: 0 !important; */
+    }
+    }
+    
+    
+    
+    
+    
+    .rightContainer{
+      background-color: white;
+      margin-top: 10%;
+      padding: 3%;
+    }
+    .google-btn{
+      background-color: #DC4E41 !important;
+    }
+    .containerBox{
+      width: 80% !important;
+    }
+    .form-btn{
+      border: none !important;
+    }
+    /* .phone-input{
+        border: 1px solid black;
+    } */
+    .Auth-mail{
+        margin-bottom: auto !important;
+color: #8C98A9;
+    }
+    .Auth-mail-text{
+        color: #8C98A9;
+    }
+    .next-btn{
+        background-color: #0072BC;
+    }
+    .terms{
+        color: #0072BC;
+    }
+    
+    .signup-btn1{
+      background-color: #0072BC !important;
+    }
+    
+    @media screen and (min-width:1300px){
+      .signup-btn > Button {
+        height: 60px;
+      }
+    }
