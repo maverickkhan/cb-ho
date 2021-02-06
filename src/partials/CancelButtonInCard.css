@@ -1,0 +1,16 @@
+.cancel-button-in-card-profile{
+    background: #FBFBFB !important;
+    padding: 0.8% 2% !important;
+    text-transform: capitalize !important;
+    font-size: 20px !important;
+    font-weight: normal !important;
+    font-family: 'gotham-book';
+    border-radius: 5px !important;
+}
+.cancel-button-in-card-profile:focus{
+    border: none;
+}
+
+.cancel-button-icon-in-card-profile{
+    margin-left: 20px !important;
+}
