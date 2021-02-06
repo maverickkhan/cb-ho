@@ -1,10 +1,9 @@
-.card-create-project-button{
+.header-create-arrow-button{
     background: #0072BC no-repeat !important;
     border-radius: 5px !important;
-    padding: 0.8% 2% !important;
+    padding: 0.4% 2% !important;
     text-transform: capitalize !important;
     font-size: 20px !important;
     font-weight: normal !important;
     font-family: 'gotham-book';
-    border-radius: 5px !important;
 }

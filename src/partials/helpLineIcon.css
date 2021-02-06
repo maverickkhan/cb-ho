@@ -1,4 +1,5 @@
 .headericonportal{
     opacity: 1;
-    background: transparent
+    background: transparent;
+    box-shadow: 5px 10px 10px #000 !important;
 }

@@ -10,6 +10,6 @@ export default function HeadingBigNarrow({title}) {
     )
 }
 
-HeadingBigNarrow.defaultProp = {
+HeadingBigNarrow.defaultProps = {
     title: 'Create New Project',
 }
