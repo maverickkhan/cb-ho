@@ -1,0 +1,31 @@
+@font-face{
+    font-family: gotham-light;
+    src: url('../assets/font-family/gotham-light-regular.otf');
+}
+@font-face{
+    font-family: gotham-bold;
+    src: url('../assets/font-family/gotham-bold.otf');
+}
+@font-face{
+    font-family: gotham-book;
+    src: url('../assets/font-family/gothambook.ttf');
+}
+
+.profile-footer-nav-menu{
+    text-align: left;
+    font: normal normal normal 15px/47px Gotham;
+    letter-spacing: 0px;
+    color: #58595B;
+    opacity: 1;
+    list-style: none;
+    font-family: 'gotham-book' !important;
+    text-decoration: none;
+}
+.profile-footer-nav-menu:link:visited{
+    color: #58595B;
+    
+    font-family: 'gotham-book';
+}
+.profile-foot-list:link::after:hover:active{
+    color: #58595B;
+}

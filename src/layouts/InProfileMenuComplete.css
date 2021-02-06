@@ -1,0 +1,21 @@
+.profile-inside-footer-menu-items{
+    background-color: #fff;
+    width: 1551px;
+    height: auto;
+}
+.profile-navigation-footer-inside{
+}
+.profile-navigation-list-items-footer{
+    padding-left: 300px;
+    background-color: #fff !important;
+    display: flex;
+    float: left;
+    width: 1551px;
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    background: no-repeat;
+    font-family: 'gotham-book';
+    text-align: center;
+    margin: 0px auto;
+}
